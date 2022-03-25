@@ -1,0 +1,23 @@
+.my-transactions {
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+    height: 100%;
+}
+
+.my-transactions h3 {
+    padding-top: 2rem;
+    margin-left: 1rem;
+    color: var(--primary-color);
+    text-shadow: 1px 2px white;
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .my-transactions {
+        margin-top: 14rem;
+    }
+    
+  }
+  

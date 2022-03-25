@@ -1,0 +1,83 @@
+.overview-wrapper {
+    background-color: var(--primary-color);
+    height: 8rem;    
+    position: relative;
+    top: 3rem;
+    z-index: 100;
+}
+
+.overview {
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem 4rem .5rem 4rem;
+} 
+
+.transaction-balance {
+    margin-top: 1rem;
+}
+
+hr {
+    margin: 1rem;
+}
+
+.transaction-control-icons  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.transaction-control-icons button {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 .9rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.transaction-control-icons  p{
+   margin-top: 1rem;
+   font-weight: 500;
+}
+
+.transactions-list-icon  button{
+    background-color: green;
+}
+
+.withdrawal-icon button {
+    background-color: rgb(228, 37, 37);   
+}
+
+.deposit-icon button{
+    background-color: var(--primary-color);
+}
+
+.summary {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.withdrawal-summary, .deposit-summary{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0 .3rem;
+}
+
+.withdrawal-summary {
+    color: rgb(228, 37, 37);   
+}
+
+.deposit-summary {
+    color: green;   
+}
+.summary p {
+    color: grey;
+    margin-bottom: .5rem;
+}
+

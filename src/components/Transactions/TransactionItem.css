@@ -1,0 +1,42 @@
+
+.transaction-item   {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: .5rem 0;
+    border-radius: 15px ;
+}
+
+.nameAvatar {
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: .2rem;
+    
+}
+
+.transaction_name_date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name_date {
+    padding-left: 1rem;
+}
+.name_date .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.name_date .date {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(121, 118, 118);
+}
+
+.amount {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

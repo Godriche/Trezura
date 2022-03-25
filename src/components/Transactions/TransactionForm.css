@@ -1,0 +1,38 @@
+.react-modal-sheet-container {
+    text-align: center;
+    background-color: var(--primary-color) !important;
+    color: white;
+    padding-top: .7rem;
+}
+
+.transaction-form-btn {
+    z-index: 1000000;
+}
+
+.react-modal-sheet-content { 
+    text-align: justify;
+}
+
+.transaction-form-control {
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+.transaction-form-control input {
+    width: 100%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.form-button {
+   width: 50%;
+   margin-left: 25%;
+   height: 2rem;
+   font-weight: bold;
+   font-size: 1.2rem; 
+}
